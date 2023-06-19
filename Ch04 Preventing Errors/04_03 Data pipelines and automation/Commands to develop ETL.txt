@@ -1,3 +1,6 @@
 $ cd "Ch04 Preventing Errors"/"04_03 Data pipelines and automation"
 $ invoke --list
 $ invoke etl --csv-file rides.csv
+$ sqlite3 rides.db
+  .schema
+  select * from rides;
