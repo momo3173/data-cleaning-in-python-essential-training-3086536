@@ -1,0 +1,3 @@
+$ cd "Ch04 Preventing Errors"/"04_04 Transactions"
+$ sqlite3 ships.db
+  select *from ships;
