@@ -1,0 +1,5 @@
+$ cd "Ch04 Preventing Errors"/"Challenge: ETL"
+$ python etl.py
+$ sqlite3 traffic.db
+  .schema
+  select count(ip) from traffic;

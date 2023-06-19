@@ -57,7 +57,7 @@ def traffic_ETL(in_file, out_file):
 
     if len(bad_rows) > 0:
         percent_bad = len(bad_rows)/len(df) * 100
-        print(f"{len(bad_rows)} ({percent_bad:.2f}%) bad rows")
+        print(f"There are {len(bad_rows)} ({percent_bad:.2f}%) bad rows")
         if percent_bad >= max_bad_rows_percent:
             raise ValueError(
                 "There are too many bad rows ({percent_bad: .2f} %)")
