@@ -1,4 +1,4 @@
-$ cd Ch04 Preventing Errors/04_02 Digital signature
+$ cd "Ch04 Preventing Errors"/"04_02 Digital signature"
 $ sha256sum metrics.csv
 $ sha256sum metrics.csv > sha256sum.txt
 $ sha256sum -c sha256sum.txt
